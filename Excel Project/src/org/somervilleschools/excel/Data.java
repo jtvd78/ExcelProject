@@ -2,8 +2,6 @@ package org.somervilleschools.excel;
 
 public interface Data {
 	
-	
-	
 	public String getDataSource();
 	public int getOriginalRowNumber();
 	
@@ -15,5 +13,7 @@ public interface Data {
 	public int getAssetTagOne();
 	public int getAssetTagTwo();
 	public int getGreenAssetTag();	
-
+	public String getPONumber();
+	public int getValue();
+	
 }
